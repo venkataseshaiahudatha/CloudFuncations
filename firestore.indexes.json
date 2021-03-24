@@ -1,0 +1,113 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "AppUsers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "blockedStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isEngaged",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "g",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "activeTimestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "AppUsers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "blockedStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userEngagedStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "g",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "activeTimestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "AppUsers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "engaged",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "g",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "activeTimestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "AppUsers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "g",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "activeTimestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "AppUsers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isEngaged",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "g",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "activeTimestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "CustomerQuery",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "raisedBy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "raisedOn",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
