@@ -22,7 +22,7 @@ exports.notifyNewChatMessage = functions.firestore
       console.log("recipientId :" + recipientId);
       console.log("senderId :" + senderId);
       console.log("message :" + message["message"]);
-      console.log("########charRooms:" + context.params.chatroom);
+      console.log("charRoom ID:" + context.params.chatroom);
 
       return appUsersRef.where("userUID", "==", recipientId)
           .get()
